@@ -1,0 +1,19 @@
+# 构建产物
+/RollRoll.exe
+/RollRoll.pdb
+*.pdb
+*.exe
+
+# 配置 / 日志（运行时写在 %APPDATA%，这里防一手本地副本）
+settings.ini
+log.txt
+*.log
+*.bak
+*.tmp
+
+# 编辑器 / 系统
+.vs/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
